@@ -97,10 +97,10 @@
               <xs:element type="xs:float" name="Breitengrad" minOccurs="0"/>
               <xs:element type="xs:date" name="Registrierungsdatum"/>
               <xs:element type="xs:date" name="Inbetriebnahmedatum" minOccurs="0"/>
+              <xs:element type="xs:date" name="GeplantesInbetriebnahmedatum" minOccurs="0"/>
               <xs:element type="xs:date" name="DatumEndgueltigeStilllegung" minOccurs="0"/>
               <xs:element type="xs:date" name="DatumBeginnVoruebergehendeStilllegung" minOccurs="0"/>
               <xs:element type="xs:date" name="DatumWiederaufnahmeBetrieb" minOccurs="0"/>
-              <xs:element type="xs:date" name="GeplantesInbetriebnahmedatum" minOccurs="0"/>
               <xs:element name="EinheitSystemstatus">
                 <xs:simpleType>
                   <xs:restriction base="xs:short">
@@ -216,7 +216,7 @@
               </xs:element>
               <xs:element type="xs:string" name="GenMastrNummer" minOccurs="0"/>
               <xs:element type="xs:string" name="NameWindpark" minOccurs="0"/>
-              <xs:element name="WindAnLandOderAufSee">
+              <xs:element name="WindAnLandOderAufSee" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:short">
                     <xs:enumeration value="888"/>
@@ -271,6 +271,7 @@
                   <xs:restriction base="xs:short">
                     <xs:enumeration value="691"/>
                     <xs:enumeration value="692"/>
+                    <xs:enumeration value="3102"/>
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -360,7 +361,7 @@
               <xs:element type="xs:float" name="Wassertiefe" minOccurs="0"/>
               <xs:element type="xs:float" name="Kuestenentfernung" minOccurs="0"/>
               <xs:element type="xs:string" name="EegMaStRNummer" minOccurs="0"/>
-			  <xs:element name="TechnologieFlugwindenergieanlage">
+              <xs:element name="TechnologieFlugwindenergieanlage" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:short">
                     <xs:enumeration value="3163"/>

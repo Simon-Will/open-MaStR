@@ -270,6 +270,7 @@
                     <xs:enumeration value="806"/>
                     <xs:enumeration value="811"/>
                     <xs:enumeration value="807"/>
+                    <xs:enumeration value="3179"/>
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -298,6 +299,7 @@
                     <xs:enumeration value="810"/>
                     <xs:enumeration value="806"/>
                     <xs:enumeration value="807"/>
+                    <xs:enumeration value="3179"/>
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -326,7 +328,7 @@
               <xs:element type="xs:string" name="UeberwiegendeNutzungsartDerFlaecheVorErrichtungDerSolaranlage"/>
               <xs:element type="xs:string" name="Einsatzverantwortlicher" minOccurs="0"/>
               <xs:element type="xs:string" name="GenMastrNummer"/>
-			  <xs:element name="SpeicherAmGleichenOrt">
+              <xs:element name="SpeicherAmGleichenOrt">
                 <xs:simpleType>
                   <xs:restriction base="xs:byte">
                     <xs:enumeration value="1"/>
@@ -336,9 +338,9 @@
               </xs:element>
               <xs:element type="xs:string" name="NameDesSolarparks"/>
               <xs:element type="xs:string" name="VorherigerNutzungsartenbereichDerFlaeche"/>
-              <xs:element type="xs:string" name="ZusätzlicheMerkmaleDerFlaecheUndDerAktuellenFlaechennutzung "/>
+              <xs:element type="xs:string" name="ZusaetzlicheMerkmaleDerFlaecheUndDerAktuellenFlaechennutzung"/>
               <xs:element type="xs:float" name="LichteHoehe"/>
-              <xs:element type="xs:date" name="InbetriebnahmedatumAmAktuellenStandort" minOccurs="0"/>
+              <xs:element type="xs:dateTime" name="InbetriebnahmedatumAmAktuellenStandort" minOccurs="0"/>
             </xs:choice>
           </xs:complexType>
         </xs:element>

@@ -28,7 +28,7 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element type="xs:float" name="InstallierteLeistung"/>
+              <xs:element type="xs:float" name="InstallierteLeistung" minOccurs="0"/>
               <xs:element type="xs:string" name="RegistrierungsnummerPvMeldeportal" minOccurs="0"/>
               <xs:element name="RegistrierungsnummerPvMeldeportal_nv">
                 <xs:simpleType>

@@ -253,6 +253,8 @@
                     <xs:enumeration value="2446"/>
                     <xs:enumeration value="2447"/>
                     <xs:enumeration value="2448"/>
+                    <xs:enumeration value="3032"/>
+                    <xs:enumeration value="3034"/>
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -305,7 +307,7 @@
                 </xs:simpleType>
               </xs:element>
               <xs:element type="xs:date" name="DatumKapazitaetsreserve" minOccurs="0"/>
-              <xs:element type="xs:date" name="InbetriebnahmedatumAmAktuellenStandort" minOccurs="0"/>
+              <xs:element type="xs:dateTime" name="InbetriebnahmedatumAmAktuellenStandort" minOccurs="0"/>
             </xs:sequence>
           </xs:complexType>
         </xs:element>

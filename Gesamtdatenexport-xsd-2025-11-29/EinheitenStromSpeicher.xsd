@@ -214,6 +214,7 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
+              <xs:element type="xs:string" name="GenMastrNummer" minOccurs="0"/>
               <xs:element name="Einsatzort" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:short">
@@ -248,7 +249,6 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element type="xs:string" name="GenMastrNummer" minOccurs="0"/>
               <xs:element name="AcDcKoppelung" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:short">
@@ -269,6 +269,7 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
+              <xs:element type="xs:float" name="PumpbetriebLeistungsaufnahme" minOccurs="0"/>
               <xs:element name="Notstromaggregat" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:byte">
@@ -277,7 +278,6 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element type="xs:float" name="PumpbetriebLeistungsaufnahme" minOccurs="0"/>
               <xs:element name="PumpbetriebKontinuierlichRegelbar" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:byte">
@@ -332,11 +332,12 @@
                     <xs:enumeration value="1537"/>
                     <xs:enumeration value="526"/>
                     <xs:enumeration value="525"/>
+                    <xs:enumeration value="3067"/>
                   </xs:restriction>
                 </xs:simpleType>
-              </xs:element>			  
+              </xs:element>
               <xs:element type="xs:string" name="GemeinsamRegistrierteSolareinheitMastrNummer" minOccurs="0"/>
-			  <xs:element name="NetzreserveZugeordnet" minOccurs="0">
+              <xs:element name="NetzreserveZugeordnet" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:byte">
                     <xs:enumeration value="0"/>
@@ -345,7 +346,7 @@
                 </xs:simpleType>
               </xs:element>
               <xs:element type="xs:date" name="DatumNetzreserve" minOccurs="0"/>
-			  <xs:element name="KapazitaetsreserveZugeordnet" minOccurs="0">
+              <xs:element name="KapazitaetsreserveZugeordnet" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:byte">
                     <xs:enumeration value="0"/>
@@ -353,8 +354,8 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element type="xs:date" name="DatumKapazitaetsreserve" minOccurs="0"/>
-              <xs:element type="xs:date" name="InbetriebnahmedatumAmAktuellenStandort" minOccurs="0"/>
+              <xs:element type="xs:dateTime" name="DatumKapazitaetsreserve" minOccurs="0"/>
+              <xs:element type="xs:dateTime" name="InbetriebnahmedatumAmAktuellenStandort" minOccurs="0"/>
             </xs:sequence>
           </xs:complexType>
         </xs:element>

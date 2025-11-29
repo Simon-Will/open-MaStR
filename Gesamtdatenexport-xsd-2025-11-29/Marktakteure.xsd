@@ -375,8 +375,8 @@
                 </xs:simpleType>
               </xs:element>
               <xs:element type="xs:int" name="Registergericht"/>
-              <xs:element type="xs:string" name="RegistergerichtAusland"/>		
-			  <xs:element name="RegisternummerPraefix" minOccurs="0">
+              <xs:element type="xs:string" name="RegistergerichtAusland"/>
+              <xs:element name="RegisternummerPraefix" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:short">
                     <xs:enumeration value="1003"/>
@@ -384,6 +384,7 @@
                     <xs:enumeration value="1005"/>
                     <xs:enumeration value="1006"/>
                     <xs:enumeration value="1007"/>
+                    <xs:enumeration value="3101"/>
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -1058,6 +1059,41 @@
                     <xs:enumeration value="2837"/>
                     <xs:enumeration value="2838"/>
                     <xs:enumeration value="2839"/>
+                    <xs:enumeration value="3126"/>
+                    <xs:enumeration value="3127"/>
+                    <xs:enumeration value="3128"/>
+                    <xs:enumeration value="3129"/>
+                    <xs:enumeration value="3130"/>
+                    <xs:enumeration value="3131"/>
+                    <xs:enumeration value="3132"/>
+                    <xs:enumeration value="3133"/>
+                    <xs:enumeration value="3134"/>
+                    <xs:enumeration value="3135"/>
+                    <xs:enumeration value="3136"/>
+                    <xs:enumeration value="3137"/>
+                    <xs:enumeration value="3138"/>
+                    <xs:enumeration value="3139"/>
+                    <xs:enumeration value="3140"/>
+                    <xs:enumeration value="3141"/>
+                    <xs:enumeration value="3142"/>
+                    <xs:enumeration value="3143"/>
+                    <xs:enumeration value="3144"/>
+                    <xs:enumeration value="3145"/>
+                    <xs:enumeration value="3146"/>
+                    <xs:enumeration value="3147"/>
+                    <xs:enumeration value="3148"/>
+                    <xs:enumeration value="3149"/>
+                    <xs:enumeration value="3150"/>
+                    <xs:enumeration value="3151"/>
+                    <xs:enumeration value="3152"/>
+                    <xs:enumeration value="3153"/>
+                    <xs:enumeration value="3154"/>
+                    <xs:enumeration value="3155"/>
+                    <xs:enumeration value="3156"/>
+                    <xs:enumeration value="3157"/>
+                    <xs:enumeration value="3158"/>
+                    <xs:enumeration value="3159"/>
+                    <xs:enumeration value="3160"/>
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -1085,6 +1121,7 @@
                     <xs:enumeration value="1180"/>
                     <xs:enumeration value="1181"/>
                     <xs:enumeration value="1182"/>
+                    <xs:enumeration value="3125"/>
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
